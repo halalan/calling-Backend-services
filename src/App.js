@@ -5,6 +5,9 @@ import config from "./config.json";
 import "react-toastify/dist/ReactToastify.css";
 import "./App.css";
 
+
+const apiEndpoint = "https://jsonplaceholder.typicode.com/posts"
+
 class App extends Component {
   state = {
     posts: []
